@@ -1,11 +1,11 @@
 build v1 Tutorial .
 Использование:
 
-HTML
+HTML5
 
-CSS
+CSS3
 
-JS
+JS ( Минимально )
 
 Scss preprocessor
 
