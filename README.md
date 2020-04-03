@@ -5,7 +5,7 @@ HTML5
 
 CSS3
 
-JS ( Минимально )
+
 
 Scss preprocessor
 
