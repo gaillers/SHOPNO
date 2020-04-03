@@ -1,0 +1,48 @@
+.team {
+ width: 1920px;
+ height: 1400px;
+ background-color: #f9fbfb;
+}
+.team-us {
+ width: 617px;
+ margin: 0 auto;
+}
+.team__title {
+ opacity: 0.9;
+ font-family: "Montserrat", sans-serif;
+ font-size: 38px;
+ line-height: 0.74;
+ letter-spacing: 2.28px;
+ text-align: center;
+ color: #000000e6;
+ margin: 0 auto;
+ padding-top: 130px;
+}
+.team__text {
+ opacity: 0.62;
+ font-family: "Raleway", sans-serif;
+ font-size: 18px;
+ line-height: 1.56;
+ letter-spacing: 2px;
+ text-align: center;
+ color: #0000009e;
+ margin: 0 auto;
+ padding-top: 17px;
+ padding-bottom: 120px;
+  }
+
+.content-team{
+ width: 1200px;
+ max-width: 100%;
+ margin: 0 auto;
+ display: flex;
+ flex-wrap: wrap;
+ align-content: center;
+ justify-content: space-evenly;
+
+}
+
+.content-team img {
+ margin-bottom: 20px;
+
+}
