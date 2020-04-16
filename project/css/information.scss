@@ -1,16 +1,17 @@
 .information {
  position: relative;
- width: 1920px;
+ max-width: 1920px;
+ width: 100%;
  height: 704px;
  background: url(/project/image/info.png) round;
 }
 .information-container {
  position: absolute;
- width: 1200px;
+ max-width: 1920px;
+ width: 100%;
  display: flex;
- justify-content: space-around;
+ justify-content: space-evenly;
  top: 120px;
- left: 365px;
 }
 /* .Contact Me */
 .information__feedback {

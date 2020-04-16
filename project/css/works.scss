@@ -1,5 +1,6 @@
 .works {
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   margin-bottom: 117px;
 }
 .works-us {
@@ -30,7 +31,8 @@
   padding-bottom: 120px;
 }
 .content-img {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;

@@ -1,6 +1,6 @@
 .services {
-  width: 1920px;
-  height: 1618px;
+  max-width: 1920px;
+  width: 100%;
   background-color: #f9fbfb;
 }
 .services-us {
@@ -32,13 +32,14 @@
 }
 
 .services-info {
-  width: 1165px;
+  max-width: 1170px;
+  width: 100%;
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+/* 1 services */
 .container-designing {
   width: 652px;
   height: 422px;
@@ -46,8 +47,9 @@
 
 .block-designing {
   position: absolute;
-  top: 3480px;
-  left: 448px;
+  top: 3385px;
+  left: auto;
+  margin-left: 50px;
 }
 .designing-text {
   width: 425px;
@@ -141,7 +143,9 @@
   height: 422px;
   top: -426px;
 }
+/* << 1 services >> */
 
+/* 2 services */
 .container-design {
   width: 474px;
   height: 422px;
@@ -149,8 +153,9 @@
 
 .block-design {
   position: absolute;
-  top: 3480px;
-  left: 1138px;
+  top: 3385px;
+  left: auto;
+  margin-left: 50px;
 }
 
 .design-text {
@@ -187,11 +192,20 @@
   height: 422px;
   top: -426px;
 }
+/* << 2 services >> */
 
+/* 3 services */
 .container-cool {
   width: 652px;
   height: 371px;
   margin-top: 15px;
+}
+
+.block-cool {
+  position: absolute;
+  top: 3792px;
+  left: auto;
+  margin-left: 50px;
 }
 
 .button-nexttwo {
@@ -229,12 +243,6 @@
   }
 }
 
-.block-cool {
-  position: absolute;
-  top: 3890px;
-  left: 448px;
-}
-
 .cool-text {
   opacity: 0.95;
   font-family: "Montserrat", sans-serif;
@@ -270,6 +278,9 @@
   height: 371px;
   top: -375px;
 }
+/* << 3 services >> */
+
+/* 4 services */
 .container-html {
   width: 474px;
   height: 370px;
@@ -278,8 +289,9 @@
 
 .block-html {
   position: absolute;
-  top: 3890px;
-  left: 1138px;
+  top: 3792px;
+  left: auto;
+  margin-left: 50px;
 }
 
 .html-text {
@@ -317,6 +329,9 @@
   height: 370px;
   top: -374px;
 }
+/* << 4 services >> */
+
+/* 5 services */
 .container-virtual {
   width: 472px;
   height: 370px;
@@ -325,8 +340,9 @@
 
 .block-virtual {
   position: absolute;
-  top: 4250px;
-  left: 448px;
+  top: 4155px;
+  left: auto;
+  margin-left: 50px;
 }
 .virtual-text {
   opacity: 0.95;
@@ -362,15 +378,18 @@
   height: 370px;
   top: -375px;
 }
+/* << 5 services>> */
 
+/* 6 services */
 .container-recopt {
   height: 371px;
   margin-top: 15px;
 }
 .block-recopt {
   position: absolute;
-  top: 4250px;
-  left: 962px;
+  top: 4155px;
+  left: auto;
+  margin-left: 50px;
 }
 
 .recopt-text {
@@ -407,3 +426,5 @@
   height: 371px;
   top: -375px;
 }
+
+/* << 6 services >> */

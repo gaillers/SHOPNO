@@ -1,6 +1,6 @@
 .about {
-  width: 1920px;
-  height: 985px;
+  max-width: 1920px;
+  width: 100%;
   background-color: #f9fbfb;
 }
 .about-us {
@@ -33,6 +33,9 @@
 .container-info {
   display: flex;
   justify-content: space-evenly;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
 }
 .block__photo {
   position: relative;
