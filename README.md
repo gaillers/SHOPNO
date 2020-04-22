@@ -7,7 +7,7 @@ HTML5
 
 CSS3
 
-Js + библиотека jQuery
+Js + jQuery
 
 
 
