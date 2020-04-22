@@ -7,6 +7,8 @@ HTML5
 
 CSS3
 
+Js + библиотека jQuery
+
 
 
 Scss preprocessor
