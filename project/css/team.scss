@@ -52,16 +52,13 @@
  &:hover .margaret-info {
   opacity: 1;
   visibility: visible;
- }
 }
-
 .margaret-info {
  opacity: 0;
  visibility: hidden;
  position: absolute;
  width: 335px;
  height: 241px;
- opacity: 0.98;
  box-shadow: 2.7px 6.4px 16px 0 #1414152e;
  background-color: #6df6eb;
  top: 183px;
@@ -107,24 +104,12 @@
   margin-right: auto;
 }
 
-
-
-.team-image__alrayhan {
-  position: relative;
-  
-  &:hover .alrayhan-info {
-    opacity: 1;
-    visibility: visible;
-  }
-}
-
 .alrayhan-info {
   opacity: 0;
   visibility: hidden;
   position: absolute;
   width: 335px;
   height: 241px;
-  opacity: 0.98;
   box-shadow: 2.7px 6.4px 16px 0 #1414152e;
   background-color: #6df6eb;
   top: 183px;
@@ -197,23 +182,12 @@
 .social-png {
   margin-right: 10px;
 }
-
-.team-image__richardal {
- position: relative;
-
- &:hover .richardal-info {
-  opacity: 1;
-  visibility: visible;
- }
-}
-
 .richardal-info {
  opacity: 0;
  visibility: hidden;
  position: absolute;
  width: 335px;
  height: 241px;
- opacity: 0.98;
  box-shadow: 2.7px 6.4px 16px 0 #1414152e;
  background-color: #6df6eb;
  top: 183px;
