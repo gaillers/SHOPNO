@@ -42,50 +42,33 @@
 
 }
 
-.team-image {
-  &:hover .alrayhan-info {
-    opacity: 1;
-    visibility: visible;
-}
-
-  
-}
 .content-team img {
- margin-bottom: 20px;
-
+  margin-bottom: 20px;
 }
 
-.alrayhan-photo {
-  position: relative;
+.team-image__margaret {
+ position: relative;
+
+ &:hover .margaret-info {
+  opacity: 1;
+  visibility: visible;
+ }
 }
 
-.alrayhan-info {
-  opacity: 0;
-  visibility: hidden;
-  display: block;
-  position: absolute;
-  width: 335px;
-  height: 241px;
-  opacity: 0.98;
-  box-shadow: 2.7px 6.4px 16px 0 #1414152e;
-  background-color: #6df6eb;
-  top: 747%;
-  right: 41.2%;
+.margaret-info {
+ opacity: 0;
+ visibility: hidden;
+ position: absolute;
+ width: 335px;
+ height: 241px;
+ opacity: 0.98;
+ box-shadow: 2.7px 6.4px 16px 0 #1414152e;
+ background-color: #6df6eb;
+ top: 183px;
+ left: 17px;
 }
-.block-al {
-  position: relative;
-  color: #fff;
 
-  &::after {
-    content: '';
-    position: absolute;
-    left: 20px;
-    bottom: 0px;
-    border: 13px solid transparent;
-    border-bottom: 20px solid #6df6eb;
-  }
-} 
-.alrayhan-text {
+.margaret-text {
   width: 243px;
   opacity: 0.95;
   font-family: "Montserrat", sans-serif;
@@ -102,6 +85,86 @@
   margin-left: auto;
   margin-top: 35px;
 }
+.margaret-text b {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000000f3;
+  text-transform: uppercase;
+}
+
+.margaret-title {
+  width: 239px;
+  opacity: 0.8;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+  text-align: left;
+  color: #000000cc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.team-image__alrayhan {
+  position: relative;
+  
+  &:hover .alrayhan-info {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.alrayhan-info {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 335px;
+  height: 241px;
+  opacity: 0.98;
+  box-shadow: 2.7px 6.4px 16px 0 #1414152e;
+  background-color: #6df6eb;
+  top: 183px;
+  left: 17px;
+}
+
+.block-al {
+  position: relative;
+  color: #fff;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+    border: 13px solid transparent;
+    border-bottom: 20px solid #6df6eb;
+  }
+
+}
+.alrayhan-text {
+  width: 243px;
+  opacity: 0.95;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: center;
+  color: #767070f3;
+  text-transform: capitalize;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+
+}
 
 .alrayhan-text b {
   font-size: 20px;
@@ -110,6 +173,7 @@
   color: #000000f3;
   text-transform: uppercase;
 }
+
 .alrayhan-title {
   width: 239px;
   opacity: 0.8;
@@ -127,10 +191,265 @@
 }
 
 .social {
- height: 15px;
- margin-left: 47px;
+  height: 15px;
+  margin-left: 47px;
+  margin-top: 35px;
+}
+
+.social-png {
+  margin-right: 10px;
+}
+
+.team-image__richardal {
+ position: relative;
+
+ &:hover .richardal-info {
+  opacity: 1;
+  visibility: visible;
+ }
+}
+
+.richardal-info {
+ opacity: 0;
+ visibility: hidden;
+ position: absolute;
+ width: 335px;
+ height: 241px;
+ opacity: 0.98;
+ box-shadow: 2.7px 6.4px 16px 0 #1414152e;
+ background-color: #6df6eb;
+ top: 183px;
+ left: 17px;
+}
+
+.richardal-text {
+  width: 243px;
+  opacity: 0.95;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: center;
+  color: #767070f3;
+  text-transform: capitalize;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+}
+
+.richardal-text b {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000000f3;
+  text-transform: uppercase;
+}
+
+.richardal-title {
+  width: 239px;
+  opacity: 0.8;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+  text-align: left;
+  color: #000000cc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-image__jayson {
+ position: relative;
+  
+ &:hover .jayson-info {
+  opacity: 1;
+  visibility: visible;
+ }
+}
+.jayson-info {
+ opacity: 0;
+ visibility: hidden;
+ position: absolute;
+ width: 335px;
+ height: 241px;
+ opacity: 0.98;
+ box-shadow: 2.7px 6.4px 16px 0 #1414152e;
+ background-color: #6df6eb;
+ top: 183px;
+ left: 17px;
+}
+
+.jayson-text {
+ width: 243px;
+ opacity: 0.95;
+ font-family: "Montserrat", sans-serif;
+ font-size: 15px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.6;
+ letter-spacing: 0.45px;
+ text-align: center;
+ color: #767070f3;
+ text-transform: capitalize;
+ margin-right: auto;
+ margin-left: auto;
  margin-top: 35px;
 }
-.social-png{
-  margin-right: 10px;
+
+.jayson-text b {
+ font-size: 20px;
+ font-weight: bold;
+ letter-spacing: 1px;
+ color: #000000f3;
+ text-transform: uppercase;
+}
+
+.jayson-title {
+ width: 239px;
+ opacity: 0.8;
+ font-family: "Raleway", sans-serif;
+ font-size: 16px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.5;
+ letter-spacing: 0.16px;
+ text-align: left;
+ color: #000000cc;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.team-image__elizabeth {
+ position: relative;
+ 
+ &:hover .elizabeth-info {
+  opacity: 1;
+  visibility: visible;
+ }
+}
+
+.elizabeth-info {
+ opacity: 0;
+ visibility: hidden;
+ position: absolute;
+ width: 335px;
+ height: 241px;
+ opacity: 0.98;
+ box-shadow: 2.7px 6.4px 16px 0 #1414152e;
+ background-color: #6df6eb;
+ top: 183px;
+ left: 17px;
+}
+
+.elizabeth-text {
+  width: 243px;
+  opacity: 0.95;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: center;
+  color: #767070f3;
+  text-transform: capitalize;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+}
+.elizabeth-text b {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000000f3;
+  text-transform: uppercase;
+}
+
+.elizabeth-title {
+  width: 239px;
+  opacity: 0.8;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+  text-align: left;
+  color: #000000cc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-image__steven {
+ position: relative;
+ 
+ &:hover .steven-info {
+  opacity: 1;
+  visibility: visible;
+ }
+}
+
+.steven-info {
+ opacity: 0;
+ visibility: hidden;
+ position: absolute;
+ width: 335px;
+ height: 241px;
+ opacity: 0.98;
+ box-shadow: 2.7px 6.4px 16px 0 #1414152e;
+ background-color: #6df6eb;
+ top: 183px;
+ left: 17px;
+}
+
+.steven-text {
+  width: 243px;
+  opacity: 0.95;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.45px;
+  text-align: center;
+  color: #767070f3;
+  text-transform: capitalize;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+}
+
+.steven-text b {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000000f3;
+  text-transform: uppercase;
+}
+
+.steven-title {
+  width: 239px;
+  opacity: 0.8;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+  text-align: left;
+  color: #000000cc;
+  margin-left: auto;
+  margin-right: auto;
 }
