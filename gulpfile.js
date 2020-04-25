@@ -18,7 +18,8 @@ const styleFiles = [
   "./project/css/says.scss",
   "./project/css/information.scss",
   "./project/css/footer.scss",
-  "./project/css/media.scss"
+  "./project/css/media.scss",
+  "./project/css/media915.scss"
 ];
 // порядок подкл js
 const jsFiles = ["./project/js/main.js", "./project/js/lib.js"];
