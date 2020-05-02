@@ -1,3 +1,4 @@
+// Подключение модули галпа
 const gulp = require("gulp");
 const concat = require("gulp-concat");
 const autoprefixer = require("gulp-autoprefixer");
@@ -19,13 +20,13 @@ const styleFiles = [
   "./project/css/information.scss",
   "./project/css/footer.scss",
   "./project/css/media.scss",
-  "./project/css/media915.scss"
+  "./project/css/media915.scss",
 ];
 // порядок подкл js
 const jsFiles = ["./project/js/main.js", "./project/js/lib.js"];
 const normalizeFile = ["./project/css/normalize.css"];
 
-gulp.task("normalize", function() {
+gulp.task("normalize", function () {
   return (
     gulp
       .src(normalizeFile)
@@ -33,13 +34,13 @@ gulp.task("normalize", function() {
       .pipe(concat("normalize.css"))
       .pipe(
         autoprefixer({
-          cascade: false
+          cascade: false,
         })
       )
       //    Минификация CSS
       .pipe(
         cleanCSS({
-          level: 2
+          level: 2,
         })
       )
       //    --Минификация CSS--
@@ -48,7 +49,7 @@ gulp.task("normalize", function() {
 });
 
 // Стили
-gulp.task("styles", function() {
+gulp.task("styles", function () {
   return (
     gulp
       .src(styleFiles)
@@ -58,13 +59,13 @@ gulp.task("styles", function() {
       .pipe(concat("styles.css"))
       .pipe(
         autoprefixer({
-          cascade: false
+          cascade: false,
         })
       )
       //    Минификация CSS
       .pipe(
         cleanCSS({
-          level: 2
+          level: 2,
         })
       )
       //    --Минификация CSS--
@@ -74,7 +75,7 @@ gulp.task("styles", function() {
   );
 });
 // Скрипты
-gulp.task("scripts", function() {
+gulp.task("scripts", function () {
   return (
     gulp
       .src(jsFiles)
@@ -83,7 +84,7 @@ gulp.task("scripts", function() {
       //    Минификация js
       .pipe(
         uglify({
-          toplevel: true
+          toplevel: true,
         })
       )
       //    --Минификация js--
@@ -91,14 +92,14 @@ gulp.task("scripts", function() {
       .pipe(browserSync.stream())
   );
 });
-gulp.task("del", function() {
+gulp.task("del", function () {
   return del(["build/*"]);
 });
-gulp.task("watch", function(done) {
+gulp.task("watch", function (done) {
   browserSync.init({
     server: {
-      baseDir: "./"
-    }
+      baseDir: "./",
+    },
   });
   gulp.watch("./project/css/**/*.css", gulp.series("styles"));
   gulp.watch("./project/css/**/*.scss", gulp.series("styles"));

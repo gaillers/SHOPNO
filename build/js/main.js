@@ -1,0 +1,1 @@
+document.getElementById("btn-prev"),document.getElementById("btn-next"),document.querySelectorAll(".slide"),document.querySelectorAll(".dot"),document.querySelectorAll(".slider-wrapper");
