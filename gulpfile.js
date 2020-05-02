@@ -3,11 +3,11 @@ const gulp = require("gulp");
 const concat = require("gulp-concat");
 const autoprefixer = require("gulp-autoprefixer");
 const cleanCSS = require("gulp-clean-css");
-const uglify = require("gulp-uglify");
 const del = require("del");
 const browserSync = require("browser-sync").create();
 const sourcemaps = require("gulp-sourcemaps");
 const scss = require("gulp-sass");
+const terser = require("gulp-terser");
 
 // порядок подкл css
 const styleFiles = [
@@ -81,13 +81,12 @@ gulp.task("scripts", function () {
       .src(jsFiles)
 
       .pipe(concat("main.js"))
-      //    Минификация js
-      .pipe(
-        uglify({
-          toplevel: true,
-        })
-      )
-      //    --Минификация js--
+      // Минификация js
+
+      .pipe(terser())
+      .pipe(gulp.dest("./build/js"))
+
+      // --Минификация js--
       .pipe(gulp.dest("./build/js"))
       .pipe(browserSync.stream())
   );

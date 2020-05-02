@@ -45,14 +45,14 @@
   position: relative;
 }
 
-.block__says {
+.slide {
   position: absolute;
   z-index: 1;
   display: none;
   top: 0px;
 }
 
-.block__says.active {
+.slide.active {
   position: relative;
   z-index: 1;
   display: block;
@@ -72,6 +72,7 @@
   border-radius: 3px;
   background-color: #d0d0d0;
   margin-right: 2px;
+  cursor: pointer;
 }
 
 .dot.active {
