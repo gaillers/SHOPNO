@@ -1,4 +1,4 @@
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 965px) {
   .header {
     width: 100%;
     opacity: 0.99;
@@ -167,7 +167,7 @@
     left: auto;
     margin-left: 50px;
   }
-
+  
   /*Says*/
   .container-says {
     display: flex;
@@ -180,6 +180,29 @@
     position: relative;
     z-index: 1;
     margin-left: 2px;
+  }
+  .dots-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    right: 28.8%;
+    margin-top: 60.8%;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #d0d0d0;
+    margin-right: 2px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    width: 11px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #71f6eb;
   }
 
   .background__says {
@@ -261,7 +284,7 @@
     display: flex;
     position: absolute;
     right: auto;
-    margin-left: 337px;
+    margin-left: 361px;
     top: 8285px;
   }
   .arrow-prev,
