@@ -7,6 +7,7 @@
 .team-us {
  width: 617px;
  margin: 0 auto;
+ padding-top: 130px;
 }
 .team__title {
  opacity: 0.9;
@@ -17,7 +18,7 @@
  text-align: center;
  color: #000000e6;
  margin: 0 auto;
- padding-top: 130px;
+ margin-bottom: 17px;
  text-transform: uppercase;
 }
 .team__text {
@@ -29,8 +30,7 @@
  text-align: center;
  color: #0000009e;
  margin: 0 auto;
- padding-top: 17px;
- padding-bottom: 120px;
+ margin-bottom: 120px;
  text-transform: uppercase;
 }
 .content-item {
@@ -132,8 +132,7 @@
 
 .social {
   height: 15px;
-  margin-left: 47px;
-  margin-top: 35px;
+  padding: 10px 50px;
   .social-png {
     margin-right: 10px;
   }

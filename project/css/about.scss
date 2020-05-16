@@ -2,10 +2,12 @@
   max-width: 1920px;
   width: 100%;
   background-color: #f9fbfb;
+  margin-bottom: 130px;
 }
 .about-us {
   width: 617px;
   margin: 0 auto;
+  padding-top: 130px;
 }
 .about__title {
   opacity: 0.9;
@@ -16,8 +18,8 @@
   text-align: center;
   color: #000000e6;
   margin: 0 auto;
-  padding-top: 130px;
   text-transform: uppercase;
+  margin-bottom: 17px;
 }
 .about__text {
   opacity: 0.62;
@@ -28,8 +30,8 @@
   text-align: center;
   color: #0000009e;
   margin: 0 auto;
-  padding-top: 17px;
   text-transform: uppercase;
+  margin-bottom: 100px;
 }
 
 .container-info {
@@ -38,11 +40,12 @@
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
+  align-items: center;
+  padding-bottom: 130px;
 }
 .block__photo {
   position: relative;
   z-index: 1;
-  margin-top: 145px;
 }
 
 .background__photo {
@@ -53,10 +56,6 @@
   background-color: #eff0f2;
   top: 62px;
   left: -18px;
-}
-.block-info {
-  margin-top: 192px;
-  height: 414px;
 }
 .block__title {
   font-family: "Montserrat", sans-serif;
